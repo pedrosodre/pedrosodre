@@ -1,3 +1,5 @@
+'use strict';
+
 import inquirer from 'inquirer';
 import clear from 'clear';
 import open from 'open';

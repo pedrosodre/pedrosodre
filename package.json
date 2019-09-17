@@ -1,6 +1,6 @@
 {
   "name": "pedrosodre",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "",
   "bin": {
     "pedrosodre": "./bin/main.js"
