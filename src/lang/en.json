@@ -1,0 +1,29 @@
+{
+    "me": {
+        "name": "Pedro Henrique Souza Sodré",
+        "username": "pedrosodre",
+        "email": "pedro@pedrosodre.dev",
+        "role": "Back-End Developer",
+        "roleAt": "MaxMilhas",
+        "roleColor": "#2d8abd",
+        "github": "https://github.com/pedrosodre",
+        "linkedin": "http://www.linkedin.com/in/pedro-sodre",
+        "npm": "https://www.npmjs.com/~pedrosodre",
+        "website": "https://www.pedrosodre.dev/",
+        "blog": "https://myworld.pedrosodre.dev/",
+        "sentenceOne": "I'm really curious, enthusiastic and student most of the time.",
+        "sentenceTwo": "The rest of the time I write code that others can read."
+    },
+    "words": {
+        "at": "at",
+        "work": "Work:    ",
+        "whatDoYouWant": "What you want to do now?",
+        "mail": "email",
+        "sendMail": "I want to send you an",
+        "sendMailDone": "Done, see you soon!",
+        "quit": "I'll come back later :)",
+        "bye": "Ok, see you later!",
+        "command": "cmd/ctrl + click",
+        "tip": "Tip: Try [[command]] on the links above"
+    }
+}

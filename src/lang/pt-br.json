@@ -1,0 +1,29 @@
+{
+    "me": {
+        "name": "Pedro Henrique Souza Sodré",
+        "username": "pedrosodre",
+        "email": "pedro@pedrosodre.dev",
+        "role": "Desenvolvedor Back-End",
+        "roleAt": "MaxMilhas",
+        "roleColor": "#2d8abd",
+        "github": "https://github.com/pedrosodre",
+        "linkedin": "http://www.linkedin.com/in/pedro-sodre",
+        "npm": "https://www.npmjs.com/~pedrosodre",
+        "website": "https://www.pedrosodre.dev/",
+        "blog": "https://myworld.pedrosodre.dev/",
+        "sentenceOne": "Eu sou realmente curioso, entusiasmado e estudante durante a maior parte do tempo.",
+        "sentenceTwo": "O resto do tempo escrevo códigos que outras pessoas possam ler."
+    },
+    "words": {
+        "at": "na",
+        "work": "Trabalho:",
+        "whatDoYouWant": "O que você quer fazer agora?",
+        "mail": "e-mail",
+        "sendMail": "Quero te enviar um",
+        "sendMailDone": "Legal, nos vemos em breve!",
+        "quit": "Voltarei mais tarde :)",
+        "bye": "Tá bem, até breve!",
+        "command": "cmd/ctrl + clique",
+        "tip": "Dica: Tente apertar [[command]] nos links acima"
+    }
+}
