@@ -14,14 +14,13 @@ export default class Developer implements IDeveloper {
     blog: string;
 
     sentenceOne: string;
-    sentenceTwo: string;
 
     words: any;
 
     box: any;
     chalk: any;
 
-    constructor(box: any, chalk: any, dev: { name: string, username: string, email: string, role: string, roleAt: string, roleColor: string, github?: string, linkedin?: string, npm?: string, website?: string, blog?: string, sentenceOne?: string, sentenceTwo?: string }, words: {}) {
+    constructor(box: any, chalk: any, dev: { name: string, username: string, email: string, role: string, roleAt: string, roleColor: string, github?: string, linkedin?: string, npm?: string, website?: string, blog?: string, sentenceOne?: string }, words: {}) {
         this.name = dev.name;
         this.username = dev.username;
         this.email = dev.email;
@@ -36,7 +35,6 @@ export default class Developer implements IDeveloper {
         this.blog = dev.blog ? dev.blog : '';
 
         this.sentenceOne = dev.sentenceOne ? dev.sentenceOne : '';
-        this.sentenceTwo = dev.sentenceTwo ? dev.sentenceTwo : '';
 
         this.words = words;
 
@@ -45,6 +43,9 @@ export default class Developer implements IDeveloper {
     }
 
     getCard() {
+
+        const sentence = this.sentenceOne.replace(/(.{50}(\s|$))/g, '$1\n');
+
         return this.box(
             [
                 `${this.chalk.bold.green(this.name)}`,
@@ -58,8 +59,7 @@ export default class Developer implements IDeveloper {
                 ``,
                 `${this.chalk.white.bold('Card:')}      ${this.chalk.red('npx') + ' ' + this.chalk.white(this.username)}`,
                 ``,
-                `${this.chalk.italic(this.sentenceOne)}`,
-                `${this.chalk.italic(this.sentenceTwo)}`
+                `${this.chalk.italic(sentence)}`
             ].join('\n'),
             {
                 margin: 1,
