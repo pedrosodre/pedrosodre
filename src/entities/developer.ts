@@ -52,7 +52,6 @@ export default class Developer implements IDeveloper {
                 ``,
                 `${this.chalk.white.bold(this.words.work)}  ${this.chalk.white(this.role)} ${this.chalk.white(this.words.at)} ${this.chalk.hex(this.roleColor).bold(this.roleAt)}`,
                 `${this.chalk.white.bold('Website:')}   ${this.website}`,
-                `${this.chalk.white.bold('Blog:')}      ${this.blog}`,
                 `${this.chalk.white.bold('GitHub:')}    ${this.github}`,
                 `${this.chalk.white.bold('npm:')}       ${this.npm}`,
                 `${this.chalk.white.bold('LinkedIn:')}  ${this.linkedin}`,

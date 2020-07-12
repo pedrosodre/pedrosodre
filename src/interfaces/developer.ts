@@ -9,5 +9,5 @@ export default interface Developer {
     linkedin: string;
     npm: string;
     website: string;
-    blog: string;
+    blog?: string;
 }
