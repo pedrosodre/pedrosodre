@@ -24,8 +24,15 @@ npx pedrosodre
 <div>
     <img height="20" src="https://cdn.worldvectorlogo.com/logos/typescript.svg" style="margin:0px 4px;" />
     <img height="20" src="https://cdn.worldvectorlogo.com/logos/javascript.svg" style="margin:0px 4px;" />
-    <img height="20" src="https://cdn.worldvectorlogo.com/logos/nodejs.svg" style="margin:0px 4px;" />
+    <img height="20" src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" style="margin:0px 4px;" />
+    <img height="20" src="https://cdn.worldvectorlogo.com/logos/nestjs.svg" style="margin:0px 4px;" />
     <img height="20" src="https://cdn.worldvectorlogo.com/logos/react.svg" style="margin:0px 4px;" />
+    <img height="20" src="https://cdn.worldvectorlogo.com/logos/nextjs-3.svg" style="margin:0px 4px;" />
     <img height="20" src="https://cdn.worldvectorlogo.com/logos/amazon-web-services-2.svg" style="margin:0px 4px;" />
-    <img height="20" src="https://cdn.worldvectorlogo.com/logos/nginx.svg" style="margin:0px 4px;" />
+    <img height="20" src="https://cdn.worldvectorlogo.com/logos/nginx-1.svg" style="margin:0px 4px;" />
+    <img height="20" src="https://cdn.worldvectorlogo.com/logos/mongodb.svg" style="margin:0px 4px;" />
+    <img height="20" src="https://cdn.worldvectorlogo.com/logos/mysql.svg" style="margin:0px 4px;" />
+    <img height="20" src="https://cdn.worldvectorlogo.com/logos/git-icon.svg" style="margin:0px 4px;" />
+    <img height="20" src="https://cdn.worldvectorlogo.com/logos/elastic-elasticsearch.svg" style="margin:0px 4px;" />
+    <img height="20" src="https://cdn.worldvectorlogo.com/logos/metabase.svg" style="margin:0px 4px;" />
 </div>
