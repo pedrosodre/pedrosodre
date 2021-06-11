@@ -23,10 +23,10 @@ npx pedrosodre
 
 <div>
     <img height="20" src="https://cdn.worldvectorlogo.com/logos/typescript.svg" style="margin:0 8px 0;" />
-    <img height="20" src="https://cdn.worldvectorlogo.com/logos/javascript.svg" style="margin:0 8px;" />
+    <img height="20" src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" style="margin:0 8px;" />
     <img height="20" src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" style="margin:0 8px;" />
-    <img height="20" src="https://cdn.worldvectorlogo.com/logos/nestjs.svg" style="margin:0 8px;" />
-    <img height="20" src="https://cdn.worldvectorlogo.com/logos/react.svg" style="margin:0 8px;" />
+    <img height="20" src="https://docs.nestjs.com/assets/logo-small.svg" style="margin:0 8px;" />
+    <img height="20" src="https://cdn.worldvectorlogo.com/logos/react-2.svg" style="margin:0 8px;" />
     <img height="20" src="https://cdn.worldvectorlogo.com/logos/nextjs-3.svg" style="margin:0 8px;" />
     <img height="20" src="https://cdn.worldvectorlogo.com/logos/amazon-web-services-2.svg" style="margin:0 8px;" />
     <img height="20" src="https://cdn.worldvectorlogo.com/logos/nginx-1.svg" style="margin:0 8px;" />
