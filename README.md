@@ -31,7 +31,7 @@ npx pedrosodre
     <img height="20" src="https://cdn.worldvectorlogo.com/logos/amazon-web-services-2.svg" style="margin:0 8px;" />
     <img height="20" src="https://cdn.worldvectorlogo.com/logos/nginx-1.svg" style="margin:0 8px;" />
     <img height="20" src="https://cdn.worldvectorlogo.com/logos/mongodb.svg" style="margin:0 8px;" />
-    <img height="20" src="https://cdn.worldvectorlogo.com/logos/mysql.svg" style="margin:0 8px;" />
+    <img height="20" src="https://cdn.worldvectorlogo.com/logos/mysql-3.svg" style="margin:0 8px;" />
     <img height="20" src="https://cdn.worldvectorlogo.com/logos/git-icon.svg" style="margin:0 8px;" />
     <img height="20" src="https://cdn.worldvectorlogo.com/logos/elastic-elasticsearch.svg" style="margin:0 8px;" />
     <img height="20" src="https://cdn.worldvectorlogo.com/logos/metabase.svg" style="margin:0 8px;" />
