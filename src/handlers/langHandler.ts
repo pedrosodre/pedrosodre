@@ -1,14 +1,16 @@
-import inquirer from 'inquirer';
+import type { createPromptModule } from 'inquirer';
 
 import pt_br from '../lang/pt-br.json';
 import en from '../lang/en.json';
 
-export const langHandler = async (prompt: inquirer.PromptModule) => {
+type PromptModule = ReturnType<typeof createPromptModule<never>>;
+
+export const langHandler = async (prompt: PromptModule) => {
     let jsonLang: any;
 
     const questions = [
         {
-            type: 'list',
+            type: 'select',
             name: 'action',
             message: 'Hello, please select your preferred language:',
             choices: [

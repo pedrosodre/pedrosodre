@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
+  mode: 'production',
   devtool: 'source-map',
   resolve: {
     extensions: ['.js', '.jsx', '.json', '.ts', '.tsx'],
@@ -10,12 +11,13 @@ module.exports = {
     libraryTarget: 'commonjs',
     path: path.join(__dirname, 'bin'),
     filename: '[name].js',
+    clean: true,
   },
   target: 'node',
   module: {
     rules: [
       // all files with a `.ts` or `.tsx` extension will be handled by `ts-loader`
-      { test: /\.tsx?$/, loader: 'ts-loader' },
+      { test: /\.tsx?$/, loader: 'ts-loader', options: { transpileOnly: true } },
     ],
   },
   plugins: [

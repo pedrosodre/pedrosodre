@@ -1,11 +1,13 @@
-import inquirer from 'inquirer';
+import type { createPromptModule } from 'inquirer';
 import Developer from '../interfaces/developer';
 
-export const contactHandler = async (dev: Developer, prompt: inquirer.PromptModule, chalk: any, open: any, words: any) => {
+type PromptModule = ReturnType<typeof createPromptModule<never>>;
+
+export const contactHandler = async (dev: Developer, prompt: PromptModule, chalk: any, open: any, words: any) => {
 
     const questions = [
         {
-            type: 'list',
+            type: 'select',
             name: 'action',
             message: words.whatDoYouWant,
             choices: [

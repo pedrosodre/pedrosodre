@@ -20,7 +20,7 @@ export default class Developer implements IDeveloper {
     box: any;
     chalk: any;
 
-    constructor(box: any, chalk: any, dev: { name: string, username: string, email: string, role: string, roleAt: string, roleColor: string, github?: string, linkedin?: string, npm?: string, website?: string, blog?: string, sentenceOne?: string }, words: {}) {
+    constructor(box: any, chalk: any, dev: { name: string, username: string, email: string, role: string, roleAt: string, roleColor: string, github?: string, linkedin?: string, npm?: string, website?: string, blog?: string, sentenceOne?: string }, words: any) {
         this.name = dev.name;
         this.username = dev.username;
         this.email = dev.email;

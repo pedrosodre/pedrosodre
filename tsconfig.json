@@ -1,21 +1,17 @@
 {
 	"compilerOptions": {
-	  "lib": [
-		"es2017"
-	  ],
-	  "resolveJsonModule": true,
-	  "moduleResolution": "node",
-	  "noUnusedLocals": true,
-	  "noUnusedParameters": true,
-	  "sourceMap": false,
-	  "target": "es2017",
-	  "esModuleInterop": true,
-	  "outDir": "lib"
+		"lib": ["ES2022", "DOM"],
+		"resolveJsonModule": true,
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"sourceMap": false,
+		"target": "ES2022",
+		"esModuleInterop": true,
+		"outDir": "lib",
+		"rootDir": "./src",
+		"types": ["node"]
 	},
-	"exclude": [
-	  "node_modules",
-	  "doc",
-	  "tests"
-	]
-  }
-  
+	"exclude": ["node_modules", "doc", "tests"]
+}
