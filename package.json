@@ -1,38 +1,50 @@
 {
   "name": "pedrosodre",
   "version": "0.0.8",
-  "description": "",
+  "description": "Interactive terminal profile for Pedro Henrique Souza Sodré.",
+  "keywords": [
+    "cli",
+    "profile",
+    "terminal"
+  ],
   "bin": {
     "pedrosodre": "./bin/main.js"
   },
   "files": [
     "bin/"
   ],
+  "engines": {
+    "node": "^22.13.0 || >=24"
+  },
   "scripts": {
     "build": "webpack",
     "typecheck": "tsc --noEmit",
     "start": "npm run build -- --watch",
     "lint": "eslint src --ext .ts",
-    "release": "npm run lint && npm run typecheck && npm run build -s && npm publish --access=public"
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "npm run format:check && npm run lint && npm run typecheck && npm run build",
+    "release": "npm run check -s && npm publish --access=public"
   },
   "dependencies": {
-    "boxen": "^8.0.1",
-    "chalk": "^6.0.0",
-    "clear": "^0.1.0",
-    "inquirer": "^14.1.0",
-    "open": "^11.0.1"
+    "boxen": "8.0.1",
+    "chalk": "6.0.0",
+    "clear": "0.1.0",
+    "inquirer": "14.1.0",
+    "open": "11.0.1"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "@types/clear": "^0.1.4",
-    "@types/node": "^26.2.0",
-    "eslint": "^10.9.0",
-    "globals": "^17.11.0",
-    "ts-loader": "^9.6.2",
-    "typescript": "^6.0.3",
-    "typescript-eslint": "^8.67.0",
-    "webpack": "^5.109.2",
-    "webpack-cli": "^7.2.2"
+    "@eslint/js": "10.0.1",
+    "@types/clear": "0.1.4",
+    "@types/node": "26.2.0",
+    "eslint": "10.9.0",
+    "globals": "17.11.0",
+    "prettier": "3.9.6",
+    "ts-loader": "9.6.2",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.67.0",
+    "webpack": "5.109.2",
+    "webpack-cli": "7.2.2"
   },
   "repository": {
     "type": "git",

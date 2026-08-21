@@ -15,6 +15,8 @@ If you have npm installed, run the command bellow to get more details about me a
 npx pedrosodre
 ```
 
+Requires Node.js 22.13+ or 24+.
+
 <hr />
 
 <h3>Some languages and tools</h3>
