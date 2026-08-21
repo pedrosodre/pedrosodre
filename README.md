@@ -5,7 +5,6 @@
 
 <div>
     <img src="https://img.shields.io/github/followers/pedrosodre" alt="Followers on GitHub">
-    <img src="https://visitor-badge.glitch.me/badge?page_id=pedrosodre.pedrosodre" alt="Visitor count" />
 </div>
 
 <hr />
@@ -63,11 +62,3 @@ npx pedrosodre
         </tr>
     </tbody>
 </table>
-
-<hr />
-
-<h3>Most used languages</h3>
-
-[![Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pedrosodre&langs_count=5)](https://github.com/pedrosodre)
-
-_based on public repositories_
